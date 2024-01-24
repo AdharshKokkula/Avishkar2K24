@@ -1,0 +1,56 @@
+/* Basic styling example, customize as needed */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    background-image: url(images/background\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+
+    background-color: white;
+    box-shadow: 3px 3 px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    width: 100%;
+    list-style: none;
+    display:  flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: 003272;
+}
+nav li {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+ 
+.navbar {
+    color: #ffffff;
+    background-color: #003273;
+}
+
+.navbar-items{
+    color: #ffffff;
+}
+
+.mainlogo{
+    height: 65px;
+}
