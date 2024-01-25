@@ -47,10 +47,6 @@ nav a:hover{
     background-color: #003273;
 }
 
-.navbar-items{
-    color: #ffffff;
-}
-
-.mainlogo{
-    height: 65px;
+.navbar-toggler {
+    color: white !important;
 }
