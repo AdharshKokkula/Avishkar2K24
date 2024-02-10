@@ -8,9 +8,14 @@
     color: white !important;
 }
 
-.footer {
-    background-color: #003273;
-    font-family: "Roboto";
+
+.page-heading {
+    font-weight: bold;
+
+}
+
+.sub-heading {
+    font-weight: bold;
 }
 
 /* ========= nav bar elements ========= */
@@ -59,6 +64,43 @@
 }
 
 /* ======= End of Navbar ====== */
+
+/* ======== Footer ======== */
+
+
+.footer {
+    background-color: #003273;
+    font-family: "Roboto";
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 24px;
+    padding: 8px;
+    margin: 8px 20px 0px 0px;
+    border-color: #5a7184;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 24px;
+}
+
+.hr-line {
+    background-color: #5a7184;
+    width: 75%;
+}
+
+.c-icon {
+    color: #959ead;
+}
+
+.created-by-h1 {
+    color: #959ead;
+    font-size: 15px;
+    margin-top: 28;
+    margin-bottom: 48;
+}
+
+/* ========= End of Footer ======== */
 
 /* ======= Banner ======== */
 
@@ -187,41 +229,7 @@
 
 /* ======= End of Banner ======== */
 
-.icon {
-    color: #5a7184;
-    font-size: 24px;
-    padding: 8px;
-    margin: 8px 20px 0px 0px;
-    border-color: #5a7184;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 24px;
-}
-
-.hr-line {
-    background-color: #5a7184;
-    width: 75%;
-}
-
-.c-icon {
-    color: #959ead;
-}
-
-.created-by-h1 {
-    color: #959ead;
-    font-size: 15px;
-    margin-top: 28;
-    margin-bottom: 48;
-}
-
-.page-heading {
-    font-weight: bold;
-
-}
-
-.sub-heading {
-    font-weight: bold;
-}
+/* ========== gallery item ========= */
 
 .gallery-item {
     margin-top: 26px;
@@ -243,3 +251,106 @@
 .item-wrap:hover img {
     transform: scale(1.1);
 }
+
+/* ========== End of gallery item ========= */
+
+
+/* ========== Fag page ========= */
+
+
+.accordian {
+    background-color: white;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    border-radius: 18px;
+    border: 1px solid #D9d9d9;
+    cursor: pointer;
+}
+
+.Q-logo {
+    color: #003273;
+    font-size: 42px;
+    border-left: 5px solid #003273;
+    padding: 0 0 0 8px;
+    margin: 0 8px 0 8px;
+}
+
+.A-logo {
+    color: #003273;
+    font-size: 38px;
+    border-left: 4px solid #003273;
+    padding: 0 5px 0 8px;
+    margin: 0 16px 0 8px;
+}
+
+.question {
+    color: #003273;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-icon {
+    color: #003273;
+    font-size: 24px;
+    margin-right: 16px;
+    transition: transform 0.2s;
+}
+
+.a-icon.active {
+    transform: rotate(-180deg);
+}
+
+.answer {
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+
+/* ========== End of Fag page ========= */
+
+
+/* ============ Team Page ============ */
+
+
+.card-container {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 14px;
+    border-radius: 20px;
+}
+
+.card {
+    padding: 15px 15px 15px 15px;
+    background: #fffbfb;
+    box-shadow: rgb(0 0 0 / 13%) 0px 4px 20px 7px;
+    background-color: #d9d9d9;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.team-member-image {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.position {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+
+.social-icons {
+    font: 70px;
+    text-align: center;
+    margin: 0px 0px 2px 20px;
+}
+
+/* =========== End of Team Page ============ */
+
