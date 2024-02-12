@@ -1,3 +1,16 @@
+/* ========== Navbar Start ========== */
+let menuBtn = document.getElementById("menuBtn");
+let optionBtn = document.getElementById("optionBtn");
+let xBtn = document.getElementById("xBtn");
+
+menuBtn.addEventListener("click", function() {
+    xBtn.classList.toggle("hidden");
+    optionBtn.classList.toggle("hidden");
+});
+
+/* ========== Navbar End ========== */
+
+/* ========== Accordian Start ========== */
 const accordians = document.querySelectorAll('.accordian');
 
 accordians.forEach(accordian => {
@@ -16,3 +29,5 @@ accordians.forEach(accordian => {
 
     })
 })
+
+/* ========== Accordian End ========== */
