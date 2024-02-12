@@ -20,7 +20,6 @@
 
 /* ========= nav bar elements ========= */
 
-
 .navbar-items {
     display: flex;
 }
@@ -62,6 +61,26 @@
         color: #ffffff;
     }
 }
+
+/*============= Nav bar for  extra small  devices============================*/
+.xsm-style {
+    margin-left: 15px;
+    height: 50px;
+}
+
+@media (max-width:577px) {
+    .xsm-style {
+        width: 250px;
+        margin-left: 2px;
+        height: 45px;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+/* ==============END Nav bar for  extra small  devices============================== */
 
 /* ======= End of Navbar ====== */
 
@@ -236,16 +255,19 @@
 }
 
 .item-wrap {
+    box-sizing: border-box;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     height: 100%;
     overflow: hidden;
 }
 
+.container {
+    width: 85vw;
+}
+
 .item-wrap img {
     transition: 0.3s;
-    position: relative;
-    z-index: 1;
 }
 
 .item-wrap:hover img {
@@ -354,3 +376,30 @@
 
 /* =========== End of Team Page ============ */
 
+/*------------ contact start page -------------*/
+
+.contact-page-icon {
+    height: 64px;
+    width: 64px;
+    margin-right: 28px;
+}
+
+.contact-card {
+    background-color: #D1EEFF;
+    border-radius: 20px;
+    padding: 12px;
+    margin-bottom: 28px;  
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px; 
+    border: 1px lightgrey solid;
+}
+
+.card-heading {
+    color: #C93341;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+/*------------ end of contact page -------------*/
