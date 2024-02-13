@@ -378,12 +378,6 @@
 
 /*------------ contact start page -------------*/
 
-.contact-page-icon {
-    height: 64px;
-    width: 64px;
-    margin-right: 28px;
-}
-
 .contact-card {
     background-color: #D1EEFF;
     border-radius: 20px;
@@ -395,6 +389,13 @@
 
 .card-heading {
     color: #C93341;
+}
+
+.contact-page-icon {
+    height: 64px;
+    width: 64px;
+    margin-right: 28px;
+    margin-bottom: 18px;
 }
 
 .card-content {
