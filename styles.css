@@ -404,3 +404,37 @@
 }
 
 /*------------ end of contact page -------------*/
+
+/*-------------sample page --------------------*/
+
+.video {
+    margin:2%;
+    text-align: center;
+}
+
+video {
+    height: 75%;
+    width: 80%;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: x-large;
+    }
+
+    h3 {
+        font-size: large;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .samples a {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+}
+
+/*-------------sample page end --------------------*/
