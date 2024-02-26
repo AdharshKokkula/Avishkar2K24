@@ -10,8 +10,8 @@
 
 
 .page-heading {
+    font-family: "Times New Roman";
     font-weight: bold;
-
 }
 
 .sub-heading {
@@ -134,10 +134,6 @@
     padding-top: 45px;
     color: white;
 } 
-
-.register-btn:hover {
-    text-decoration: none !important;
-}
 
 /* .register-button {
     width: 135px;
