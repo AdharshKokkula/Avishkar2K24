@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 .navbar {
-    background-color: #003273;
+    background-color: #4886F8;
 }
 
 .navbar-toggler {
@@ -36,7 +36,7 @@
     animation: nav_3d_jump 0.8s ease-out;
 }
 
-@-webkit-keyframes nav_3d_jump {
+/* @-webkit-keyframes nav_3d_jump {
     from {
         transform: translateZ(0px) rotateX(0deg);
         -webkit-transform: translateZ(0px) rotateX(0deg);
@@ -60,7 +60,7 @@
         background-color: #000000;
         color: #ffffff;
     }
-}
+} */
 
 /*============= Nav bar for  extra small  devices============================*/
 .xsm-style {
@@ -88,32 +88,32 @@
 
 
 .footer {
-    background-color: #003273;
+    background-color: #4886F8;
     font-family: "Roboto";
 }
 
 .icon {
-    color: #5a7184;
+    color: white;
     font-size: 24px;
     padding: 8px;
     margin: 8px 20px 0px 0px;
-    border-color: #5a7184;
+    border-color: white;
     border-style: solid;
     border-width: 2px;
     border-radius: 24px;
 }
 
 .hr-line {
-    background-color: #5a7184;
+    background-color: white;
     width: 75%;
 }
 
 .c-icon {
-    color: #959ead;
+    color: white;
 }
 
 .created-by-h1 {
-    color: #959ead;
+    color: white;
     font-size: 15px;
     margin-top: 28;
     margin-bottom: 48;
@@ -133,6 +133,10 @@
 .carousel-content {
     padding-top: 45px;
     color: white;
+} 
+
+.register-btn:hover {
+    text-decoration: none !important;
 }
 
 /* .register-button {
