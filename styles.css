@@ -28,6 +28,11 @@
     margin-right: 10px;
 }
 
+.nav-link:hover {
+    font-weight: 500;
+}
+
+/*
 .nav_3d_jumpback:hover {
     color: #ffffff;
     background-color: transparent;
@@ -36,7 +41,7 @@
     animation: nav_3d_jump 0.8s ease-out;
 }
 
-/* @-webkit-keyframes nav_3d_jump {
+ @-webkit-keyframes nav_3d_jump {
     from {
         transform: translateZ(0px) rotateX(0deg);
         -webkit-transform: translateZ(0px) rotateX(0deg);
