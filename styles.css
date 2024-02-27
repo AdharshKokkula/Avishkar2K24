@@ -65,7 +65,7 @@
 /*============= Nav bar for  extra small  devices============================*/
 .xsm-style {
     margin-left: 15px;
-    height: 50px;
+    height: 100px;
 }
 
 @media (max-width:577px) {
@@ -94,9 +94,9 @@
 
 .icon {
     color: white;
-    font-size: 24px;
-    padding: 8px;
-    margin: 8px 20px 0px 0px;
+    font-size: 18px;
+    padding: 6px;
+    margin: 6px 20px 0px 0px;
     border-color: white;
     border-style: solid;
     border-width: 2px;
@@ -124,10 +124,9 @@
 /* ======= Banner ======== */
 
 .banner-img {
-    background-image: url("https://res.cloudinary.com/dnxdqqci7/image/upload/v1707228276/npydjtz7zcmnqios3ktb.jpg");
+    background-image: url("https://res.cloudinary.com/dmfjynxgu/image/upload/v1708957705/240_F_710309533_l3WvnnRBxuCjnxABivPh0o5GsaymDcgQ_tpxc2e.webp");
     background-size: cover;
-    height: 400px;
-    width: 100vw;
+    height: 100vh;
 }
 
 .carousel-content {
