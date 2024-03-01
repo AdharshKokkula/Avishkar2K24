@@ -17,14 +17,22 @@
 /* ========= nav bar elements ========= */
 
 .navbar-brand {
-    padding: 0px !important;
-    height: 54px;
+    height: 55px;
 }
 
 .main-logo {
     height: 50px;
     padding: 0;
-    margin: 0;
+    margin-left: 8px;
+}
+
+@media screen and (width < 600px) {
+    
+    .main-logo {
+        height: 40px;
+        align-items: center;
+        margin-left: 4px;
+    }
 }
 
 .navbar-items {
@@ -245,10 +253,10 @@
 
 /* ========= End of Footer ======== */
 
-/* ======= Banner ======== */
+/* ======= Banner ======== https://res.cloudinary.com/dmfjynxgu/image/upload/v1708957705/240_F_710309533_l3WvnnRBxuCjnxABivPh0o5GsaymDcgQ_tpxc2e.webp*/
 
 .banner-img {
-    background-image: url("https://res.cloudinary.com/dmfjynxgu/image/upload/v1708957705/240_F_710309533_l3WvnnRBxuCjnxABivPh0o5GsaymDcgQ_tpxc2e.webp");
+    background-image: url("assets/images/background img/banner.jpg");
     background-size: cover;
     height: 100vh;
 }
@@ -373,9 +381,41 @@
 
 /* ======= Timer ======== */
 
-
+.timer-section {
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0;
+}
 
 /* ======= End of Timer ======== */
+
+/* ======= Home page About Section ======== */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media screen and (width < 600px) {
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.home-page-about-avishkar {
+    background-image: url("assets/images/logos/avk.png");
+    background-size: cover;
+}
+
+/* ======= End of Home page About Section ======== */
 
 /* ========== About Page =========== */
 
