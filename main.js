@@ -1,16 +1,3 @@
-/* ========== Navbar Start ========== */
-let menuBtn = document.getElementById("menuBtn");
-let optionBtn = document.getElementById("optionBtn");
-let xBtn = document.getElementById("xBtn");
-
-menuBtn.addEventListener("click", function() {
-    xBtn.classList.toggle("hidden");
-    optionBtn.classList.toggle("hidden");
-});
-
-/* ========== Navbar End ========== */
-
-/* ========== Accordian Start ========== */
 const accordians = document.querySelectorAll('.accordian');
 
 accordians.forEach(accordian => {
@@ -22,12 +9,32 @@ accordians.forEach(accordian => {
         if (icon.classList.contains('active')) {
             icon.classList.remove('active');
             answer.style.maxHeight = null;
+            answer.style.marginTop = "0px";
+            accordian.style.backgroundColor = "white";
         } else {
             icon.classList.add('active');
             answer.style.maxHeight = answer.scrollHeight + 'px';
+            answer.style.marginTop = "25px";
+            accordian.style.backgroundColor = "#E7E7E7";
         }
+    });
+});
 
-    })
-})
 
 /* ========== Accordian End ========== */
+
+    /**
+     * Back to top button
+     */
+    let backtotop = select('.back-to-top')
+    if (backtotop) {
+        const toggleBacktotop = () => {
+            if (window.scrollY > 100) {
+                backtotop.classList.add('active')
+            } else {
+                backtotop.classList.remove('active')
+            }
+        }
+        window.addEventListener('load', toggleBacktotop)
+        onscroll(document, toggleBacktotop)
+    }
