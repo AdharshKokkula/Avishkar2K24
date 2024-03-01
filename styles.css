@@ -371,6 +371,12 @@
 
 /* ======= End of Banner ======== */
 
+/* ======= Timer ======== */
+
+
+
+/* ======= End of Timer ======== */
+
 /* ========== About Page =========== */
 
 .about-content {
@@ -525,7 +531,7 @@
 /*------------ contact start page -------------*/
 
 .contact-card {
-    background-color: #D1EEFF;
+    background-color: rgba(118, 133, 151, 0.3);
     border-radius: 20px;
     padding: 12px;
     margin-bottom: 28px;  
@@ -538,6 +544,7 @@
 }
 
 .contact-page-icon {
+
     height: 64px;
     width: 64px;
     margin-right: 28px;
