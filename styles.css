@@ -14,10 +14,6 @@
     font-weight: bold;
 }
 
-.sub-heading {
-    font-weight: bold;
-}
-
 /* ========= nav bar elements ========= */
 
 .navbar-brand {
@@ -151,6 +147,57 @@
     margin: 25px 30px 25px auto;
 }
 
+.arrow-icon {
+    height: 55px;
+    width: 55px;
+}
+
+@media screen and (width < 600px) {
+
+    .arrow-icon {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #4A5D75;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 28px;
+    color: #000000;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: #4A5D75;
+    color: #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
 .footer {
     background-color: #1c1c1c;
     font-family: "Roboto";
@@ -160,11 +207,15 @@
     color: white;
     font-size: 18px;
     padding: 6px;
-    margin: 6px 20px 0px 0px;
+    margin: 8px 6px 0px 0px;
     border-color: white;
     border-style: solid;
     border-width: 2px;
     border-radius: 24px;
+}
+
+.insta-icon {
+    margin-right: 22px;
 }
 
 .hr-line {
@@ -179,8 +230,17 @@
 .created-by-h1 {
     color: white;
     font-size: 15px;
-    margin-top: 28;
-    margin-bottom: 48;
+    margin-top: 18px;
+    margin-bottom: 22px;
+}
+
+@media screen and (width < 600px) {
+    .created-by-h1 {
+        color: white;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 /* ========= End of Footer ======== */
@@ -316,6 +376,31 @@
 .about-content {
     display: flex;
     flex-direction: column;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media screen and (width < 600px) {
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.sub-heading {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.ppt-list-items {
+    padding-left: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* ========== End of About Page =========== */
@@ -354,38 +439,21 @@
 
 .accordian {
     background-color: white;
-    padding: 8px 16px;
+    padding: 20px;
     margin-bottom: 16px;
-    border-radius: 18px;
-    border: 1px solid #D9d9d9;
+    border-bottom: 2px solid #6EB5B0;
     cursor: pointer;
 }
 
-.Q-logo {
-    color: #003273;
-    font-size: 42px;
-    border-left: 5px solid #003273;
-    padding: 0 0 0 8px;
-    margin: 0 8px 0 8px;
-}
-
-.A-logo {
-    color: #003273;
-    font-size: 38px;
-    border-left: 4px solid #003273;
-    padding: 0 5px 0 8px;
-    margin: 0 16px 0 8px;
-}
-
 .question {
-    color: #003273;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .a-icon {
-    color: #003273;
+    color: #6EB5B0;
     font-size: 24px;
     margin-right: 16px;
     transition: transform 0.2s;
@@ -400,6 +468,12 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s;
+}
+
+.faq-sub-heading {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 24px;
 }
 
 /* ========== End of Fag page ========= */
